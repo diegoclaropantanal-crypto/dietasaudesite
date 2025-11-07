@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DietaSimples - Alimentação Saudável</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* IMAGEM DE CAPA */
+        header {
+            background-image: url('Gemini_Generated_Image_sp9y7vsp9y7vsp9y.png');
+            background-size: cover;
+            background-position: center;
+            height: 380px;
+        }
+
+        /* SEÇÕES GERAIS */
+        section {
+            background-color: white;
+            margin: 40px auto;
+            padding: 30px 10%;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            max-width: 1000px;
+        }
+
+        h2 {
+            color: #2d5d3a;
+            border-bottom: 2px solid #2d5d3a;
+            padding-bottom: 5px;
+        }
+
+        /* BOAS VINDAS */
+        .welcome {
+            background: linear-gradient(135deg, #2d5d3a, #4fa668);
+            color: white;
+            text-align: center;
+            padding: 45px 8%;
+            border-radius: 15px;
+            box-shadow: 0 0 14px rgba(0,0,0,0.15);
+        }
+        .welcome h2 {
+            border: none;
+            font-size: 2.1em;
+            margin-bottom: 10px;
+        }
+        .welcome p {
+            font-size: 1.2em;
+            line-height: 1.6em;
+        }
+
+        /* DIETA PARA IDOSOS */
+        .senior {
+            background: #ffffff;
+            color: #2d5d3a;
+        }
+
+        /* BENEFÍCIOS */
+        .benefits {
+            background: linear-gradient(135deg, #ffffff, #c8e6c9);
+            color: #2d5d3a;
+            text-align: center;
+            padding: 45px 8%;
+            border-radius: 15px;
+            box-shadow: 0 0 14px rgba(0,0,0,0.10);
+        }
+
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 25px;
+            margin-top: 30px;
+        }
+
+        .card {
+            background: white;
+            width: 250px;
+            padding: 25px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 0 12px rgba(0,0,0,0.15);
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card span {
+            font-size: 50px;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        /* DEPOIMENTOS */
+        .testimonials {
+            text-align: center;
+        }
+
+        .testimonial {
+            background: #e8f6ed;
+            border-left: 5px solid #2d5d3a;
+            padding: 20px;
+            margin-top: 15px;
+            border-radius: 10px;
+            font-size: 1.1em;
+        }
+
+        .stars {
+            font-size: 25px;
+            color: #ffcc00;
+        }
+
+        /* PAGAMENTO */
+        .payment {
+            background: linear-gradient(135deg, #4fa668, #2d5d3a);
+            color: white;
+            text-align: center;
+            padding: 50px 8%;
+            border-radius: 15px;
+            box-shadow: 0 0 12px rgba(0,0,0,0.15);
+        }
+
+        .price {
+            font-size: 2.5em;
+            font-weight: bold;
+            margin: 15px 0;
+        }
+
+        .btn-buy {
+            background: #ffffff;
+            color: #2d5d3a;
+            padding: 15px 35px;
+            border-radius: 30px;
+            font-size: 1.2em;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+            display: inline-block;
+        }
+
+        .btn-buy:hover {
+            background: #c8e6c9;
+            transform: scale(1.05);
+        }
+
+        /* RODAPÉ */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #2d5d3a;
+            color: white;
+            font-size: 0.9em;
+        }
+
+        /* RESPONSIVIDADE */
+        @media (max-width: 768px) {
+            .card {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header></header>
+
+<!-- BOAS VINDAS -->
+<section class="welcome">
+    <h2>Bem-vindo ao DietaSimples!</h2>
+    <p>Nosso objetivo é ajudar você a alcançar uma alimentação equilibrada, saudável e acessível.</p>
+</section>
+
+<!-- TEXTO PARA PESSOAS COM MAIS IDADE -->
+<section class="senior">
+    <h2>Dieta Simples para Pessoas com Mais Idade</h2>
+    <p>Com o passar dos anos, o corpo muda e a alimentação precisa acompanhar essas mudanças. No nosso ebook você encontrará opções de refeições baratas, nutritivas e fáceis de preparar usando alimentos do dia a dia como arroz, feijão, ovo, frutas e verduras.</p>
+</section>
+
+<!-- BENEFÍCIOS -->
+<section class="benefits">
+    <h2>Por que escolher uma alimentação saudável?</h2>
+    <div class="cards">
+        <div class="card">
+            <span>⚡</span>
+            <h3>Mais Energia</h3>
+            <p>Alimentos naturais aumentam sua disposição durante o dia.</p>
+        </div>
+
+        <div class="card">
+            <span>🛡️</span>
+            <h3>Imunidade Forte</h3>
+            <p>Vitaminas e minerais ajudam a proteger seu corpo.</p>
+        </div>
+
+        <div class="card">
+            <span>🧠</span>
+            <h3>Mente Saudável</h3>
+            <p>Uma nutrição balanceada melhora o foco e o humor.</p>
+        </div>
+    </div>
+</section>
+
+<!-- DEPOIMENTOS -->
+<section class="testimonials">
+    <h2>Depoimentos de Quem Já Comprou</h2>
+
+    <div class="testimonial">
+        <div class="stars">⭐⭐⭐⭐⭐</div>
+        "Em apenas 1 semana já vi diferença no meu peso e na minha disposição!"
+        <br>— Marina S.
+    </div>
+
+    <div class="testimonial">
+        <div class="stars">⭐⭐⭐⭐⭐</div>
+        "Receitas simples, baratas e muito fáceis de seguir. Amei!"
+        <br>— João P.
+    </div>
+
+    <div class="testimonial">
+        <div class="stars">⭐⭐⭐⭐⭐</div>
+        "Eu já tinha tentado de tudo, mas essa foi a única dieta que funcionou para mim!"
+        <br>— Ana L.
+    </div>
+</section>
+
+<!-- PAGAMENTO -->
+<section class="payment">
+    <h2>Adquira o ebook completo DietaSimples</h2>
+    <p>Acesso a receitas, dicas e plano alimentar personalizado!</p>
+
+    <div class="price">R$ 39,90</div>
+
+    <a class="btn-buy" href="https://pag.ae/81c2y4SB2" target="_blank">
+        Comprar Agora
+    </a>
+</section>
+
+<footer>
+    &copy; 2025 DietaSimples - Todos os direitos reservados.
+</footer>
+
+</body>
+</html>
